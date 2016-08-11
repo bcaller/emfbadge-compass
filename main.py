@@ -6,7 +6,7 @@
 
 
 import ugfx, pyb, buttons, math
-from apps.compass.compass import CompassIMU
+execfile('apps/bcaller~compass/compass.py')  # I'dve preferred an import, but __import__ ran out of memory
 
 FRICTION = 0.3
 COLOR = ugfx.html_color(0xFF7C11)
